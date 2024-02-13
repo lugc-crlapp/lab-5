@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab 2 | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>Color Mixer</h1>
+    <p>Adjust the sliders to change the background color or click the button for a random color!</p>
+    <div class="slider-container">
+        <label for="red">Red</label>
+        <input id="red" type="range" min="0" max="255" value="0" />
+    </div>
+    <div class="slider-container">
+        <label for="green">Green</label>
+        <input id="green" type="range" min="0" max="255" value="0" />
+    </div>
+    <div class="slider-container">
+        <label for="blue">Blue</label>
+        <input id="blue" type="range" min="0" max="255" value="0" />
+    </div>
+    <button id="randomize">Randomize Color</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
